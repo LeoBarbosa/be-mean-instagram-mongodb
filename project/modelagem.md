@@ -49,19 +49,10 @@ project: {
 	],
 	members_project: [
 		{
-			background_path: String,
-			name: String,
-			bio: String,
-			date-register: Date,
-			avatar-path: String,
-			username: String,
-			email: String,
-			password: String,
-			last-access: Timestamp,
-			online: Boolean,
-			disable: Boolean,
-			hash-token: String,
-			type-name: String,
+			type_name : String,
+			$ref : String,
+			$id : ObjectId(),
+			$db : String,
 			notify:[
 				{
 
@@ -85,7 +76,6 @@ user: {
 	online: Boolean,
 	disable: Boolean,
 	hash-token: String,
-	type-name: String,
 	notify:[
 		{
 
